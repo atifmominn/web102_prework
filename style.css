@@ -2,7 +2,8 @@
 
 body {
     font-family: 'Cabin';
-    background-color: #758190;
+    background-color: #87CEEB;
+    color: #2d333a;
 }
 
 #tentacles {
@@ -11,25 +12,33 @@ body {
 
 .header {
     display: flex;
-    background-color: lightblue;
+    background-color: #2d333a;
     padding: 1%;
     align-items: center;
     margin-left: -10px;
     margin-right: -10px;
     margin-top: -10px;
+    color: white;
 }
 
 .stats-container {
     display: flex;
+    align-items: center;
+}
+
+.stats-card:hover {
+    cursor: pointer; 
+    box-shadow: 0 0 30px #FAF9F6; 
 }
 
 .stats-card {
-    background-color: #a8b0bc;
+    background-color: #2d333a;
     border-radius: 7px;
     padding: 1%;
     margin: 1%;
     width: 100%;
     text-align: center;
+    color:white;
 }
 
 #num-contributions, #total-raised, #num-games {
@@ -49,17 +58,20 @@ body {
 }
 
 .game-card {
-    background-color: #FFFFFF;
+    background-color: #2d333a;
     padding: 1%;
     margin: 1%;
     width: 300px;
     text-align: center;
     border-radius: 7px;
+    color:white;
+    font-size: 10px;
+
 }
 
 .game-card:hover {
     cursor: pointer;
-    box-shadow: 0 0 30px lightblue;
+    box-shadow: 0 0 30px #FAF9F6;
 }
 
 #button-container {
@@ -72,4 +84,62 @@ button {
     padding: 1%;
     margin: 1%;
     border-radius: 7px;
+    background-color: #2d333a;
+    color:white;
+}
+
+h6{
+    font-size: 30px;
+    margin: 40px auto;
+    text-align: center;
+}
+
+p {
+    font-size: 20px;
+    margin: 40px auto;
+    text-align: center;
+}
+
+.search-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.search-label {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.search-input-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.centered-input {
+    padding: 10px;
+    width: 250px;
+    border-radius: 15px;
+    color: #2d333a;
+}
+
+.centered-input::placeholder {
+    color: #2d333a;
+}
+
+.centered-input::placeholder {
+    color: #2d333a;
+}
+
+.search-button {
+    background-color: #2d333a;
+    color: white;
+    border: none;
+    border-radius: 15px;
+    padding: 10px 15px;
+    cursor: pointer;
+    margin-left: 10px;
 }
