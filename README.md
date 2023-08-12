@@ -24,7 +24,7 @@ The following **optional** features are implemented:
 
 Here's a walkthrough of implemented features:
 
-<img src='https://drive.google.com/file/d/1rrOD-zYzVGBLDp1Ky8m_spwibIM3EoRu/view?usp=sharing' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+<img src='assets/ezgif.com-video-to-gif.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
 GIF created with Kap  
 
