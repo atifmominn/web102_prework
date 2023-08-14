@@ -24,7 +24,7 @@ The following **optional** features are implemented:
 
 Here's a walkthrough of implemented features:
 
-<img src='assets/Kapture 2023-08-14 at 04.08.13.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+<img src='assets/ezgif.com-video-to-gif.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
 GIF created with Kap  
 
